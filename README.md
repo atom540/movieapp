@@ -12,14 +12,21 @@ A React Native application designed to mimic the style and feel of Netflix, with
 ## Screenshots
 
 ### Splash Screen
-![Splash Screen](./assets/screenshots/splash-screen.png)
-
-### Home Screen
-![Home Screen](./assets/screenshots/home-screen.png)
-
 ### Movie Details Screen
-![Movie Details Screen](./assets/screenshots/details-screen.png)
 
+#Andriod App
+<img src="./assets/a1.jpg" width="400" height="600" />
+<img src="./assets/a2.jpg" width="400" height="600" />
+
+
+<img src="./assets/a3.jpg" width="400" height="600" />
+
+### WEB APP
+<img src="./assets/a4"  />
+
+
+<img src="./assets/a5"  />
+<img src="./assets/a6"  />
 ## Installation
 
 ### Prerequisites
