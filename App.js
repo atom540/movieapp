@@ -3,7 +3,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons'; // Importing icons
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons'; 
 
 import SplashScreen from './screens/SplashScreen';
 import HomeScreen from './screens/HomeScreen';
@@ -34,14 +34,14 @@ export default function App() {
   );
 }
 
-// Tab navigator with icons for Home and Search
+
 function TabNavigator() {
   return (
     <Tab.Navigator
       screenOptions={{
-        tabBarActiveTintColor: '#e50914',  // Netflix-like red for active tabs
-        tabBarInactiveTintColor: 'gray',   // Gray for inactive tabs
-        tabBarStyle: { backgroundColor: '#000' },  // Black background for the tab bar
+        tabBarActiveTintColor: '#e50914',  
+        tabBarInactiveTintColor: 'gray',  
+        tabBarStyle: { backgroundColor: '#000' },  
       }}
     >
       <Tab.Screen

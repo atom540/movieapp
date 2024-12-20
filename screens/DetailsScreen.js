@@ -8,7 +8,7 @@ export default function DetailsScreen({ route, navigation }) {
     <ScrollView style={styles.container}>
       {/* Movie Poster */}
       <Image
-        source={{ uri: movie.image?.original || 'https://via.placeholder.com/500x750' }} // Placeholder in case no image is available
+        source={{ uri: movie.image?.original || 'https://via.placeholder.com/500x750' }} 
         style={styles.image}
       />
       
@@ -28,38 +28,37 @@ export default function DetailsScreen({ route, navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#141414', // Dark background to match Netflix theme
+    backgroundColor: '#141414', 
     paddingHorizontal: 10,
     paddingTop: 20,
   },
   image: {
     width: '100%',
-    height: 400, // Adjusted height for a more cinematic look
-    borderRadius: 10, // Rounded corners for the image
+    height: 400,
+    borderRadius: 10,
     marginBottom: 15,
-    borderWidth: 1, // Optional: Adding a thin border to give a subtle effect
-    borderColor: '#333', // Dark border for contrast
+    borderWidth: 1, 
   },
   title: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#fff', // White text for contrast
+    color: '#fff', 
     marginBottom: 15,
   },
   summary: {
     fontSize: 16,
-    color: '#bbb', // Lighter gray color for the summary text
-    lineHeight: 24, // Better spacing between lines for readability
-    textAlign: 'justify', // Justify text for a cleaner look
+    color: '#bbb', 
+    lineHeight: 24, 
+    textAlign: 'justify', 
     marginBottom: 20,
   },
   backButton: {
-    backgroundColor: '#e50914', // Netflix Red
+    backgroundColor: '#e50914', 
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 30,
     marginBottom: 30,
-    alignSelf: 'flex-start', // Align the button to the left
+    alignSelf: 'flex-start',
   },
   backButtonText: {
     fontSize: 18,
